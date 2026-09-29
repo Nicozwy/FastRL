@@ -1,5 +1,7 @@
 # Learn from the Gap: Differential-Aware Advantage Pruning with Adaptive Rollout Sampling for GRPO
-
+<p align="center">
+  ☑️Accepted by ``NeurIPS 2026'' (CCF A)
+</p>
 
 #### We have open-sourced a subset of the baseline training scripts and code. The complete implementation of our method, as well as all related code, will be released upon paper acceptance.
 
