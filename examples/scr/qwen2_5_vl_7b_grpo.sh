@@ -5,7 +5,6 @@ export VLLM_USE_DEEP_GEMM=0
 export Time=$(date +"%Y%m%d_%H%M%S")
 export RolloutSA=false
 export PRUNING=false
-export GREOS=false
 export CPPO=false
 export SIM_THRESHOLD=0.2
 export RAY_process_group_cleanup_enabled=true
