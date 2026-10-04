@@ -24,7 +24,7 @@ python3 -m verl.trainer.main \
     worker.actor.clip_ratio_high=0.28 \
     algorithm.disable_kl=True \
     algorithm.online_filtering=True \
-    trainer.experiment_name=Qwen2.5-VL-7B-Instruct-GRPO \
-    trainer.save_checkpoint_path=Save_model/geo3k/GRPO/Qwen2.5-VL-7B-Instruct-GRPO \
+    trainer.experiment_name=Qwen2.5-VL-7B-Instruct-DAPO \
+    trainer.save_checkpoint_path=Save_model/geo3k/GRPO/Qwen2.5-VL-7B-Instruct-DAPO \
     trainer.total_epochs=25 \
     trainer.n_gpus_per_node=4
