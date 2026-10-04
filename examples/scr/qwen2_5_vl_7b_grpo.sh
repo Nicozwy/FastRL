@@ -20,7 +20,7 @@ python3 -m verl.trainer.main \
     data.train_files=data/geometry3k/train-00000-of-00001.parquet \
     data.val_files=data/geometry3k/test-00000-of-00001.parquet \
     worker.actor.model.model_path="${MODEL_PATH}" \
-    trainer.experiment_name=Qwen2.5-VL-7B-Instruct-DAPO \
-    trainer.save_checkpoint_path=Save_model/geo3k/GRPO/Qwen2.5-VL-7B-Instruct-DAPO \
+    trainer.experiment_name=Qwen2.5-VL-7B-Instruct-GRPO \
+    trainer.save_checkpoint_path=Save_model/geo3k/GRPO/Qwen2.5-VL-7B-Instruct-GRPO \
     trainer.total_epochs=25 \
     trainer.n_gpus_per_node=4
