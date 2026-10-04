@@ -9,10 +9,8 @@ dynamic = [
     "dependencies",
     "optional-dependencies",
     "requires-python",
-    "authors",
     "description",
-    "readme",
-    "license"
+    "readme"
 ]
 
 [tool.ruff]
